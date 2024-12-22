@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebForm111</title>
+</head>
+<body>
+    <h3 style="text-align: center;">แบบสอบถาม</h3>
+    <hr>
+    <form>
+        <table align="center" style="background-color: #ffedcd;">
+            <tr>
+                <td><b>ข้อมูลผู้ตอบแบบสอบถาม</b></td>
+            </tr>
+            <tr>
+                <td><b>ชื่อ-นามสกุล</b></td>
+                <tr><td><input type="text" name="name_lastname" style="width: 330px;"></td></tr>
+            </tr>
+            <tr>
+                <td><b>รหัสนักศึกษา</b></td>
+                <tr><td><input type="text" name="student_id" style="width: 330px;"></td></tr>
+            </tr>
+            <tr>
+                <td><b>เพศ</b></td>
+                <tr>
+                <td>
+                    <input type="radio" name="male" checked> ชาย
+                    <input type="radio" name="female"> หญิง
+                </td>
+                </tr>
+            </tr>
+            <tr>
+                <td><b><label for="faculty_affiliation">สังกัดคณะ</label></b></td>
+                <tr>
+                <td>
+                    <select name="facultys" size="11" style="width: 180px;" id="faculty_affiliation">
+                        <option value="science">วิทยาศาสตร์</option>
+                        <option value="computer_science">วิทยาการคอมพิวเตอร์</option>
+                        <option value="education">ครุศาสตร์</option>
+                        <option value="business_management">บริหารธุรกิจและการจัดการ</option>
+                        <option value="humanities">มนุษยศาสตร์</option>
+                        <option value="industrial_technology">เทคโนโลยีอุตสาหกรรม</option>
+                        <option value="agriculture">เกษตรศาสตร์</option>
+                        <option value="nursing_science">พยาบาลศาสตร์</option>
+                        <option value="public_health">สาธารณสุขศาสตร์</option>
+                        <option value="thai_traditional">แพทย์แผนไทยและทางเลือก</option>
+                        <option value="jurisprudence">นิติศาสตร์</option>
+                    </select>
+                </td>
+                </tr>
+            </tr>
+            <tr>
+                <td><b>แม่สีที่ชื่นชอบ</b></td>
+                <tr>
+                <td>
+                    <input type="checkbox" name="red"> สีแดง
+                    <input type="checkbox" name="green"> สีเขียว
+                    <input type="checkbox" name="blue"> สีน้ำเงิน
+                </td>
+                </tr>
+            </tr>
+            <tr>
+                <td><b>ผลไม้ที่ชื่นชอบ</b></td>
+                <tr>
+                <td>
+                    <input type="checkbox" name="mango"> มะม่วง
+                    <input type="checkbox" name="custard_apple"> น้อยหน่า
+                    <input type="checkbox" name="durian"> ทุเรียน<br>
+                    <input type="checkbox" name="longan"> ลำใย
+                    <input type="checkbox" name="guava"> ฝรั่ง
+                    <input type="checkbox" name="watermelon"> แตงโม
+                </td>
+                </tr>
+            </tr>
+            <tr>
+                <td><b>อาหารที่ชื่นชอบ</b></td>
+                <tr>
+                <td>
+                    <input type="checkbox" name="spicy_prawn_soup"> ต้มยำกุ้ง
+                    <input type="checkbox" name="minced_pork_omelette"> ไข่เจียวหมูสับ
+                    <input type="checkbox" name="chicken_galangal_curry"> แกงข่าไก่<br>
+                    <input type="checkbox" name="green_chicken_curry"> แกงเขียวหวานไก่
+                    <input type="checkbox" name="pad_thai"> ผัดไทย
+                    <input type="checkbox" name="crispy_noodles_with_rad_na"> ราดหน้าหมี่กรอบ
+                </td>
+                </tr>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    <input type="submit" value="บันทึก">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
